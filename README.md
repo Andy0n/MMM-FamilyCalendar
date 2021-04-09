@@ -1,8 +1,8 @@
 # MMM-FamilyCalendar
-A MagicMirror Module that implements the FamilyCalendar Python Script
+A MagicMirror Module that implements the [FamilyCalendar](https://github.com/Andy0n/FamilyCalendar) Python Script.
 
 ## Installation
-Download, install and configure [Andy0n/FamilyCalendar](https://github.com/Andy0n/FamilyCalendar) first
+Download, install and configure [Andy0n/FamilyCalendar](https://github.com/Andy0n/FamilyCalendar) first.
 
 
 Download the Module and install the dependencies:
@@ -30,7 +30,7 @@ You can change the default Configuration in the `config/config.js` file:
 {
 	module: "MMM-FamilyCalendar",
 	position: "top_left",
-    config: {
+	config: {
 		updateInterval: "3000000",
 		python: "/usr/bin/python"
 	}
@@ -53,3 +53,6 @@ You can change the default Configuration in the `config/config.js` file:
 | `maxHeight`             | "100%"                                 | **Optional** Displayed height of the image                                                  |
 | `opacity`               | 1.0                                    | **Optional** Opacity of the timetable                                                       |
 | `debug`                 | false                                  | **Optional** true if logging should be enabled                                              |
+
+## Examples
+TODO
